@@ -130,6 +130,9 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
+.location{
+    color: yellow;
+}
 .work-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -329,6 +332,9 @@ nav .fa-solid{
     .copyright{
         font-size: 10px;
     }
+    .location{
+    color: yellow;
+}
 }
 #msg{
     color: #61b752;
