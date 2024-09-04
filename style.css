@@ -59,6 +59,7 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 15%;
     font-size: 30px;
+    width: 50%;
 }
 .header-text h1{
     font-size: 60px;
@@ -121,7 +122,7 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #b54769;
+    color: yellowgreen;
     font-size: 14px;
 }
 .tab-contents{
@@ -130,8 +131,37 @@ nav ul li a:hover::after{
 .tab-contents.active-tab{
     display: block;
 }
-.location{
+.tab-contents ul li span.qualification{
+    color: #ff004f;
+}
+.tab-contents ul li span.location{
     color: yellow;
+    font-size: 12px;
+}
+.tab-contents table {
+    border-collapse: collapse; /* Ensures that borders are not doubled */
+    width: 100%; /* Optional: Adjusts the width of the table */
+}
+
+.tab-contents table, 
+.tab-contents th, 
+.tab-contents td {
+    border: 1px solid white; /* Adds a black border to the table, header cells, and table cells */
+}
+
+.tab-contents th{
+    padding: 10px;
+    font-weight: 700;
+    color: #ff004f;
+    font-size: 20px;
+} 
+.tab-contents td {
+    padding: 10px; /* Adds some padding to the table cells */
+    text-align: left; /* Aligns text to the left */
+    font-size: 15px;
+}
+.tab-contents td.skillset-name{
+    color: yellowgreen;
 }
 .work-list{
     display: grid;
@@ -332,9 +362,6 @@ nav .fa-solid{
     .copyright{
         font-size: 10px;
     }
-    .location{
-    color: yellow;
-}
 }
 #msg{
     color: #61b752;
